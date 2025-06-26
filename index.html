@@ -4,24 +4,78 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Data Sight</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-   <header class="header">
+
+   <header class="header" id="home">
     <nav class="header__nav">
         <ul>
-            <li class="logo"><img src="public/logo_svg.svg" alt="Logo of an eye with a safelock in the middle"><a href=".">DataSight</a></li>
-            <li>Pricing</li>
-            <li>Trial</li>
-            <li>Contact Us</li>
+            <li class="logo"><img src="public/logo_svg.svg" alt="Logo of an eye with a safelock in the middle"><a href=".">Datasight</a></li>
+            <div class="header__links">
+                <li><a href="#features">Features</a></li>
+                <li><a href="#">Pricing</a></li>
+                <li><a href="#">Testimonials</a></li>
+                <li><button class="button__contact-us"><a href="#">Contact Us</a></button></li>
+            </div>
         </ul>
     </nav>
    </header> 
 
-   <section class="section__hero"></section>
-   <section class="section__cards"></section>
-   <section class="section__testimonial"></section>
-   <section class="section__call-to-action"></section>
+   <section class="section__hero">
+    <div class="section__hero-text">
+        <h1>Ready to take your data to the next level?</h1>
+        <p>With our High-End Databases, Ensure protection and management of all your customer data, anywhere and anytime.</p>
+        <p>Check out our features!</p>
+    </div>
+    <img src="public/image1.jpg" alt="Image of a kid smiling with glasses">
+   </section>
 
-   <footer class="footer"></footer>
+   <section id="features" class="section__features">
+    <h1 class="section__features-title">Features</h1>
+    <div class="section__features-cards">
+        <div class="section__feature-card">
+            <img src="public/internet-connection-speed-svgrepo-com.svg" alt="Icon of cloud with spedometer showing fast speed">
+            <h1>Fast Servers</h1>
+            <p>Our servers use top of the line technology to ensure stable and fast connections.</p>
+        </div>
+        <div class="section__feature-card">
+            <img src="public/chip-security-svgrepo-com.svg" alt="Icon of chip with shield">
+            <h1>High-End Security</h1>
+            <p>We use updated security measures to keep your data safe and secure.</p>
+        </div>
+        <div class="section__feature-card">
+            <img src="public/eye-scan-svgrepo-com.svg" alt="Icon of an eye with a border">
+            <h1>Customer Support</h1>
+            <p>Encountered an issue? Don't worry! our team is ready to support you thanks to our 24/7 support team!</p>
+        </div>
+    </div>
+   </section>
+
+   <section class="section__testimonial">
+    <div class="section__testimonial-info">
+        <p><em>"Working with Datasight has been a pleasure from the start, while working with the amazing and simple tool they provide, everything just falls right into place, and even when I'm stuck on an issue, their support comes right to the rescue in little to no time. I'm happy to say that Datasight is our business partner" <strong>-Kazuma HIMSELF.</strong></em></p>
+        <div class="section__testimonial-stars">
+            <img src="public/star-filled.svg" alt="Filled Star">
+            <img src="public/star-filled.svg" alt="Filled Star">
+            <img src="public/star-filled.svg" alt="Filled Star">
+            <img src="public/star-filled.svg" alt="Filled Star">
+            <img src="public/star-filled.svg" alt="Filled Star">
+        </div>
+    </div>
+    <img src="public/kazuma-pic.jpg" alt="" class="section__testimonial-image">
+   </section>
+
+   <section class="section__cta">
+    <div class="section__cta-text">
+        <h1>So, what are you waiting for?</h1>
+        <p>Only a click away from supercharging your applications and database!</p>
+    </div>
+    <button class="section__cta-button">
+        Call To Action
+    </button>
+   </section>
+
+   <footer class="section__footer"><div class="section__footer-container"><p>Copyright or something - </p><a href="#home">Back To Top</a></div></footer>
 </body>
 </html>
